@@ -2,12 +2,15 @@
 
 # KEDA (Kubernetes Event-driven Autoscaling) chart
 
-Giant Swarm offers a KEDA App which can be installed in tenant clusters.
+Giant Swarm offers a KEDA App which can be installed in workload clusters. 
+
+KEDA is an autoscaling mechanism for message queues. Customers report KEDA as easy to use and has resulted in significant resource optimizations and cost savings.
+
 Here we define the KEDA chart with its templates and default configuration.
 
 ## Installing
 
-There are 3 ways to install this app onto a tenant cluster.
+There are 3 ways to install this app onto a workload cluster.
 
 1. [Using our web interface](https://docs.giantswarm.io/ui-api/web/app-platform/#installing-an-app)
 2. [Using our API](https://docs.giantswarm.io/api/#operation/createClusterAppV5)
